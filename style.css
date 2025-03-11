@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(92, 142, 234);
+    font-family: roboto;
+}
+
+h1{
+    color: rgb(241, 240, 245);
+    font-size: 50px;
+    font-weight: 5000;
+    text-align: center;
+}
+
+h2{
+    color: rgb(11, 5, 33);
+    font-size: 20px;
+    font-weight: 5000;
+    text-align: center;
+}
+
+button{
+    color: rgb(5, 5, 90);
+    font-size: large;
+    font-weight: 900;
+    background-color: aqua;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column-reverse;
+}
