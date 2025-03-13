@@ -1,6 +1,5 @@
 body{
     background-color: rgb(92, 142, 234);
-    font-family: roboto;
 }
 
 h1{
@@ -8,11 +7,12 @@ h1{
     font-size: 50px;
     font-weight: 5000;
     text-align: center;
+    font-family: Georgia;
 }
 
 h2{
     color: rgb(11, 5, 33);
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 5000;
     text-align: center;
 }
@@ -24,7 +24,12 @@ button{
     background-color: aqua;
 }
 
-.buttons {
+.how {
+    color:rgb(3, 6, 12);
+}
+
+.container {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
