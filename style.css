@@ -2,6 +2,9 @@ body{
     background-color: rgb(92, 142, 234);
 }
 
+
+
+
 h1{
     color: rgb(241, 240, 245);
     font-size: 50px;
@@ -24,6 +27,10 @@ button{
     background-color: aqua;
 }
 
+button:hover{
+    filter:brightness(0.8);
+}
+
 .how {
     color:rgb(3, 6, 12);
 }
@@ -33,3 +40,35 @@ button{
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.home{
+    display: flex;
+    justify-content: flex-end;
+}
+
+button:active {
+    opacity: 0.2;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.scuba{
+    opacity: 0.8;
+    width: 250px;
+}
+
+.jungle{
+    opacity: 0.8;
+    width: 250px;
+}
+
+.city{
+    opacity: 0.8;
+    width: 250px;
+}
+
