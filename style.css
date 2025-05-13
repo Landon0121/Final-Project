@@ -73,5 +73,7 @@ button:active {
 }
 
 p {
-    font-size: 500;
+    font-size: 25px;
+    font-weight: 5000;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }

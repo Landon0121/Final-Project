@@ -1,4 +1,3 @@
-
 let noun1 = prompt("Enter your first noun:");
 let noun2 = prompt("Enter your second noun:");
 let noun3 = prompt("Enter your third noun:");
